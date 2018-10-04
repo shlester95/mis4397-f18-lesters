@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Store:</strong>
+  <%= @sprout.store %>
+</p>
+
+<p>
+  <strong>Department:</strong>
+  <%= @sprout.department %>
+</p>
+
+<p>
+  <strong>Employee:</strong>
+  <%= @sprout.employee %>
+</p>
+
+<%= link_to 'Edit', edit_sprout_path(@sprout) %> |
+<%= link_to 'Back', sprouts_path %>

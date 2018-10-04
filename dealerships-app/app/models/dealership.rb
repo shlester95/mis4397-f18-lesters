@@ -1,2 +1,0 @@
-class Dealership < ApplicationRecord
-end

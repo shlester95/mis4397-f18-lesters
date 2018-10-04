@@ -1,2 +1,0 @@
-class Prospect < ApplicationRecord
-end
